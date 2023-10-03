@@ -20,6 +20,15 @@ function varsAndTypes(element) {
   // kod för att visa vad du lärt dig om variabler och typer
   let varsAndTypes = 'varsAndTypes'
   console.log(varsAndTypes, typeof(varsAndTypes))
+
+  let neoExempel = 18
+  for (var i=0; i<2; i++) {
+    while (neoExempel < 30 === true) {
+    neoExempel = i++
+    }
+  }
+  console.log ("nya värdet är " + neoExempel)
+ // koden lägger till 1 till variabelns värde så länge dens värde är under 30
 }
 
 function operators(element) {
