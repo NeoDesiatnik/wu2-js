@@ -17,10 +17,6 @@ export function setupPractice (element) {
 // du kan använda kontrollstrukturer och variabler etc. i 
 // andra moment än där funktionen heter så såklart
 function varsAndTypes(element) {
-  // kod för att visa vad du lärt dig om variabler och typer
-  let varsAndTypes = 'varsAndTypes'
-  console.log(varsAndTypes, typeof(varsAndTypes))
-
   let neoExempel = 18
   for (var i=0; i<2; i++) {
     while (neoExempel < 30 === true) {
@@ -28,19 +24,23 @@ function varsAndTypes(element) {
     }
   }
   console.log ("nya värdet är " + neoExempel)
- // koden lägger till 1 till variabelns värde så länge dens värde är under 30
+ //koden lägger till 1 till variabelns värde så länge dens värde är under 30
 }
 
 function operators(element) {
-  // kod för att visa vad du lärt dig om operatorer
-  console.log('operators === ', 1 === 1)
+  //användes i varsAndTypes för att se till att alla nummer stämmer och att det adderas ordentligt
 }
 
 function controlStructures(element) {
-  // kod för att visa vad du lärt dig om kontrollstrukturer
-  // if och loopar
-  let controlStructures = 'controlStructures'
-  console.log(controlStructures, controlStructures ? 'if' : 'loopar')
+  //användes i varsAndTypes för att göra så den fortsätter lägga tillnummer tills den når 30 (while nummer är under 30, lägg till 1)
+let nummer1 = 78924389702
+let nummer2 = 39462194841
+  if (nummer1 > nummer2*2 ) {
+  console.log(nummer1 + " är större än " + nummer2*2);
+} else {
+  console.log(nummer1 + " är ej större än " + nummer2*2)
+}
+
 }
 
 function arraysAndObjects (element) {
