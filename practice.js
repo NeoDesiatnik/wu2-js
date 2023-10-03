@@ -43,6 +43,10 @@ let nummer2 = 39462194841
 
 }
 
+
+// allting här under har jag missatD
+
+
 function arraysAndObjects (element) {
   // kod för att visa vad du lärt dig om arrays och objekt
   console.log(['arrays', {and: 'objects'}])
