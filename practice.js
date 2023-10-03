@@ -34,17 +34,18 @@ function operators(element) {
 function controlStructures(element) {
   //användes i varsAndTypes för att göra så den fortsätter lägga tillnummer tills den når 30 (while nummer är under 30, lägg till 1)
 let nummer1 = 78924389702
-let nummer2 = 39462194841
+let nummer2 = 39462194841 //det här numret blev nästan exakta hälften av det övre när jag bara spammade siffror och tog bort så de blev samma längd
   if (nummer1 > nummer2*2 ) {
   console.log(nummer1 + " är större än " + nummer2*2);
 } else {
   console.log(nummer1 + " är ej större än " + nummer2*2)
 }
-
+// den här if satsen kollar om nummer1 är större än nummer2 * 2, om den är det skriver den:
+// "nummer1 är större än nummer2" och om den inte är det skriver den "nummer1 är ej större än nummer2"
 }
 
 
-// allting här under har jag missatD
+// allting här under har jag missat
 
 
 function arraysAndObjects (element) {
