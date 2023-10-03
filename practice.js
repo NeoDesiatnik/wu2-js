@@ -26,7 +26,7 @@ function varsAndTypes(element) {
   console.log ("nya värdet är " + neoExempel)
  //koden lägger till 1 till variabelns värde så länge dens värde är under 30
 }
-
+ 
 function operators(element) {
   //användes i varsAndTypes för att se till att alla nummer stämmer och att det adderas ordentligt
 }
